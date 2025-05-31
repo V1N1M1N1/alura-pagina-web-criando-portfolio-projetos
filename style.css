@@ -195,3 +195,68 @@ body {
   text-align: center;
   line-height: 1.4;
 }
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cabecalho__titulo {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .cabecalho__nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .conteudo {
+    padding: 20px;
+  }
+
+  .projetos__lista {
+    grid-template-columns: 1fr;
+  }
+
+  .obras__lista {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .obra {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .obra__imagem {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .obra__conteudo {
+    max-width: 100%;
+  }
+
+  .sobre__descricao {
+    font-size: 1rem;
+  }
+
+  .rodape {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
