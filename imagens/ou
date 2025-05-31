@@ -1,0 +1,6 @@
+# python 3.13
+ a = 4
+ b =5 
+
+ somar( a + b)
+ print(somar)
